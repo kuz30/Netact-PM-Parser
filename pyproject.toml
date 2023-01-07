@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "netact-pm-parser"
+version = "0.1.0"
+description = "Code used for NetAct PM .xml.gz file parsing"
+authors = ["Andrey Kuzminov <kuz@outlook.com"]
+license = "MIT license"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
